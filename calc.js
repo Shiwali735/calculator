@@ -44,7 +44,7 @@ function writeinscreen(x){
 
             setTimeout(function(){
                 document.getElementById("screen").innerHTML="";
-            },1500);
+            },2500);
 
         }
         catch(err){
@@ -53,13 +53,12 @@ function writeinscreen(x){
             console.log(err);
             setTimeout (function(){
                 document.getElementById("screen").innerHTML="";
-            },1500)
+            },2500)
 
         }
     }
 }
 
-//pointer like in database in python 
 let pointer=history.length
 function showhistory(x){
     
